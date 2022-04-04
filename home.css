@@ -1,0 +1,63 @@
+:root {
+    --img-bg-1: url('blur-1.png');
+    --img-bg-2: url('blur-2.png');
+    --backgrond: #000;
+    --text-color: black;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+}
+
+body {
+    background-image: var(--img-bg-1), var(--img-bg-2);
+    background-repeat: no-repeat;
+    background-position: left bottom, right top;
+    background-color: black;
+    overflow: hidden;
+}
+
+
+.container {
+    height: 77vh; 
+    margin-top: 10vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.container-1 {
+    width: 700px;
+    height: 400px;
+    margin: 0 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+}
+
+.content-1 {
+    font-size: 90px;
+    padding: 0 ;    
+}
+
+.content-1:first-child {
+    color: #E1E1E6;
+}
+
+.content {
+    height:min-content;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.container {
+    color:white;
+    font-size: 50px;
+}
+
+p {
+    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+}
